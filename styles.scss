@@ -1,0 +1,48 @@
+$color: white;
+$background-color: teal;
+
+%text {
+	color:$color;
+	background-color: $background-color;
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+h1{
+	@extend %text;
+	font-size: 30px;
+	font-weight:bold;
+}
+
+table {
+	border-collapse: collapse;
+	border: 3px solid black;
+	a {
+		color: blue;
+		font-size: 125%;
+		font-weight: bold;
+	}
+	a::before {
+		color:blue;
+	}
+}
+
+th, td{
+	border: 1px solid black;
+}
+
+
+.whoknows{
+	visibility:hidden;	
+}
+
+a::before{
+	content: "\21d2";
+}
+
+#Abbie {
+	border: 2px solid black;
+}

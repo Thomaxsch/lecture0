@@ -1,0 +1,44 @@
+@charset "UTF-8";
+h1 {
+  color: white;
+  background-color: teal;
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  border: 3px solid black;
+}
+table a {
+  color: blue;
+  font-size: 125%;
+  font-weight: bold;
+}
+table a::before {
+  color: blue;
+}
+
+th, td {
+  border: 1px solid black;
+}
+
+.whoknows {
+  visibility: hidden;
+}
+
+a::before {
+  content: "⇒";
+}
+
+#Abbie {
+  border: 2px solid black;
+}
+
+/*# sourceMappingURL=styles.css.map */
